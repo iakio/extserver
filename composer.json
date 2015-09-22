@@ -1,0 +1,21 @@
+{
+    "name": "iakio/extserver",
+    "description": "Start external web server not built-in web server.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ISHIDA Akio",
+            "email": "iakio.monospacenet@gmail.com"
+        }
+    ],
+    "bin": ["bin/extserver"],
+    "autoload": {
+        "psr-4": {
+            "iakio\\extserver\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "symfony/console": "^2.7"
+    }
+}
